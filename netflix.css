@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(image1.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 120vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 120vh;
+    width: 100%;
+    opacity: 0.59;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+
+}
+
+nav {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px 24px 32px;
+    position: relative;
+}
+
+nav img {
+    color: rgb(229, 9, 20);
+    width: 148px;
+    z-index: 10;
+    position: relative;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 93px);
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    padding:0 30px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 43px;
+}
+
+.second {
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 550;
+    margin: 0 0 12px -3px;
+}
+
+.third {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 0 0 11px 0;
+}
+
+input {
+    margin:0 -157px 0 0 ;
+   background-color: rgba(16, 16, 16, 0.5);
+   padding: 17px 154px 14px 15px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgb(103, 98, 98);
+
+}
+::placeholder{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(191, 188, 188);
+    text-align: left;
+
+}
+.seperation{
+    height: 8px;
+    background-color:rgb(52, 51, 51) ;
+}
+.btn{
+    font-family: "Martel Sans", sans-serif;
+    margin: 0 11px ;
+    padding: 4px 13px 2px 17px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: calc(0.25rem - 0.0625rem);
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 0 0 9px;
+}
+.b2n{
+    font-family: "Martel Sans", sans-serif;
+    margin: 0 0 0 160px;
+    padding: 8px 17px 4px 26px;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-radius: calc(0.1875rem);
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: 800;
+    font-size: x-large;
+    border-radius: 4px;
+}
+.bttn{
+    font-family: "Martel Sans", sans-serif;
+    background-color: rgba(22, 22, 22, 0.5);
+    color: white;
+    padding: 4px 32px 1px 30px;
+    border-style: solid;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    margin: 0 3 0 0;
+    position: relative;
+    z-index: 10;
+    border:2px solid rgb(86, 86, 86);
+}
+.b2n:hover{
+   background-color:  rgb(181, 10, 18);
+   cursor: pointer;
+}
+.btn:hover{
+    background-color:  rgb(185, 11, 19);
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    justify-content: right;
+    max-width: 89vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+.image{
+    position: relative;
+}
+.image img{
+    width: 36vw;
+    padding: 85px 160px 0px 0px;
+position: relative;
+z-index: 10;
+}
+.image video{
+    position: absolute;
+    position: absolute;
+    top: 135px;
+    right: 170px;
+    width: 55%;
+    margin: 21px 54px 0px 0px;
+}
+.text1{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin:0 0 0 76px;
+}
+.text2{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: -8px 0 0 76px;
+}
+section{
+    padding: 0 0 60px 0;
+}
+.tet2{
+    margin: 0 0 0 -123px;
+}
+.rev{
+    margin: 0 0 0 -203px;
+    /* font-weight: bolder; */
+}
+.tt2{
+    margin: 0 0 0 -124px;
+   font-size: 30px;
+   font-weight: 500;
+}
+.rev2{
+    margin: 0 0 0 -203px;
+    font-weight: bolder;
+}
+.vide{
+    position: absolute;
+    top: 95px;
+    right: 186px;
+    width: 49%;
+    margin: 21px 54px 0px 0px
+}
+.images{
+    position: relative;
+}
+.images img{
+    width: 36vw;
+    padding: 85px 160px 0px 0px;
+position: relative;
+z-index: 10;
+}
+.ext2{
+    margin: 0 0 0 76px;
+    padding: 0 0 6px 0;
+    font-size: 22px;
+}
+.faq{
+   
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+
+}
+.boox{
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 45, 45);
+    padding: 24px;
+    max-width: 918.193px;
+    margin:30px auto 8px auto;
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 10;
+   cursor: pointer;
+}
+.boox2{
+    font-family: "Martel Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: rgb(255, 255, 255);
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 918.193px;
+    margin:8px auto;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bolder;
+    position: relative;
+    z-index: 10;
+    font-size: 22px;
+    
+}
+.boox:hover{
+    background-color: rgb(65, 65, 65);
+}
+.boox2:hover{
+    background-color: rgb(65, 65, 65);
+}
+.fon{
+    font-family: "Martel Sans", sans-serif;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: 900;
+    padding: 22px 104px 13px 104px;
+    font-size: 18px;
+}
+.buk{
+   margin: 24px;
+}
+.boox svg{
+    filter: invert(1);
+}
+.boox2 svg{
+    filter: invert(1);
+}
+footer{
+    color: white;
+    
+    padding: 0 48px 0 48px;
+    margin: 72px 106.229px 72px 106.229px;
+}
+.class3{
+    display: flex;
+    justify-content: space-between;
+    margin: 72px 270.229px 72px 0.229px;
+
+}
+.class2{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 272px 0 0;
+    margin: -46px 0 0 0;
+}
+.class1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 287px 0 0;
+    margin: 32px 0 0 0;
+}
+.class0{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 497px 0 0;
+    margin: 35px 10px 0 0;
+}
+.en{
+    margin: 38px 0 0 0;
+}
+.ene{
+    color: rgb(179, 179, 179);
+    margin: 23px 0 0 0;
+}
+.df{
+    color: rgb(179, 179, 179);
+    margin: 0 0 0 0;
+}
